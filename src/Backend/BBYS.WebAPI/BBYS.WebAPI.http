@@ -1,0 +1,6 @@
+@BBYS.WebAPI_HostAddress = http://localhost:5232
+
+GET {{BBYS.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

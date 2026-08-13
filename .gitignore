@@ -1,0 +1,60 @@
+# =========================
+# Visual Studio / .NET
+# =========================
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# ASP.NET Core configuration files
+/src/Backend/BBYS.WebAPI/appsettings.json
+/src/Backend/BBYS.WebAPI/appsettings.Development.json
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
